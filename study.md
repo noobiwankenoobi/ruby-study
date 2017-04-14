@@ -17,10 +17,11 @@ material. Instead, digest what you've read and repeat it in your own voice.
     -   [Ruby Bits Part 2](https://www.codeschool.com/courses/ruby-bits-part-2)
 -   [% Notation](https://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Literals#The_.25_Notation)
 
-## Additional Resources
+## Additional Resources: Optional
 
 -   [RubyMonk - Interactive Ruby tutorials](https://rubymonk.com/)
 -   [Why's (Poignant) Guide to Ruby](http://poignant.guide/)
+-   [Learn Ruby - With the Edge Case Ruby Koans](http://rubykoans.com/)
 
 ## Type Conversion
 
