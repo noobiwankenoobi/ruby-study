@@ -28,7 +28,13 @@ material. Instead, digest what you've read and repeat it in your own voice.
 Write the Ruby code that takes the integer `700` and returns the string `"007"`.
 
 ```ruby
-# your answer here
+
+(700.to.s).reverse
+
+(not sure about this one)
+
+(stack overflow)
+
 ```
 
 ## Array Manipulation
@@ -38,7 +44,12 @@ manipulates it by sorting it and then reversing it in place (i.e., modifying the
 reference to the original).
 
 ```ruby
-# your answer here
+
+a = [23, 56, 3, 7]
+a.sort { |x,y| y <=> x }
+
+(ruby-doc.org)
+
 ```
 
 ## Class#method!
@@ -47,14 +58,19 @@ What does an exclamation point after a method usually signify?  e.g.,
 `my_string.capitalize!`
 
 ```md
-<!-- your answer here -->
+It usually signifies that whatever method it follow is acting on the object itself.
+These methods followed by ! usually perform a permanent or potentially dangerous change.
+"The bang is used to distinguish the "more surprising" version of the method from the "less surprising" one."
+
+(Answer found on Stack Overflow)
 ```
 
 ## Instantiation
 How do you create an instance of a class in Ruby?
 
 ```ruby
-# your answer here
+you type the word "class" followed by the name you want to give it, and then
+following the name you can give it various methods.
 ```
 
 ## Class Modification
@@ -63,7 +79,14 @@ If a class in Ruby gets modified while there are existing instances of it, then
 will those instances also have those modifications?
 
 ```md
-<!-- your answer here -->
+
+ruby-lang says:
+"In Ruby, you can open a class up again and modify it. The changes will be present
+in any new objects you create and even available in existing objects of that class."
+It looks like the answer to this question is yes, but I can't tell if there's a
+distinction here that I'm missing.
+
+https://www.ruby-lang.org/en/documentation/quickstart/3/
 ```
 
 ## Iteration
@@ -71,5 +94,14 @@ will those instances also have those modifications?
 Write an example of iteration in Ruby.
 
 ```ruby
-# your answer here
+
+i=1
+while i < 11
+  print "#{i} "
+  i+=1
+end
+
+This is a While loop that prints out the numbers from 1 to 10.^^
+
+(skorks.com)
 ```
